@@ -1,0 +1,32 @@
+---
+title: "eitpaper"
+author: "Helena Gartmeier"
+format: html
+---
+
+# Introduction
+
+I would like to talk about **mobility** with a focus on *public transport* 
+
+## Motivation
+
+The theorem of Pythagoras: 
+
+$$a^2 + b^2 = c^2$$
+
+
+### Some more text
+
+```{r}
+a <- 40 + 2
+a
+
+```
+
+
+
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
