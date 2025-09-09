@@ -13,6 +13,8 @@ See the paper structure in @fig-mindmap.
 
 [![Mindmap](images/paper_mindmap.png){#fig-mindmap}](https://excalidraw.com/#json=BNBLni1uOHNEkrmcGED26,4MiqeNDnRP_MT2tiVtQ7SQ)
 
+this is a test
+
 
 # Methods {#sec-methods}
 
@@ -21,7 +23,7 @@ See the paper structure in @fig-mindmap.
 library(ggplot2)
 data(mtcars)
 ggplot(mtcars, aes(x = wt, y = mpg)) +
-  geom_point() +
+  geom_point(color = "lightblue") +
   labs(title = "Fuel Efficiency by Car Weight",
        x = "Weight (1000 lbs)",
        y = "Miles per Gallon") +
