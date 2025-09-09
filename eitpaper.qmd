@@ -1,32 +1,22 @@
 ---
-title: "eitpaper"
+title: "Eit-Paper"
 author: "Helena Gartmeier"
 format: html
 ---
 
-# Introduction
+# Introduction {#sec-intro}
 
-I would like to talk about **mobility** with a focus on *public transport* 
+This is a paper draft for an evaluation framework for innovations of public transport (PT) pricing.
 
-## Motivation
+See the paper structure in @fig-mindmap.
 
-The theorem of Pythagoras: 
-
-$$a^2 + b^2 = c^2$$
+[![Mindmap](images/paper_mindmap.png){#fig-mindmap}](https://excalidraw.com/#json=BNBLni1uOHNEkrmcGED26,4MiqeNDnRP_MT2tiVtQ7SQ)
 
 
-### Some more text
+# Methods {#sec-methods}
 
-```{r}
-a <- 40 + 2
-a
+# Results {#sec-results}
 
-```
+# Discussion {#sec-discussion}
 
-
-
-
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
+# References
