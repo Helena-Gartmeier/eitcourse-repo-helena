@@ -2,6 +2,7 @@
 title: "Eit-Paper"
 author: "Helena Gartmeier"
 format: html
+echo: false
 ---
 
 # Introduction {#sec-intro}
@@ -14,6 +15,19 @@ See the paper structure in @fig-mindmap.
 
 
 # Methods {#sec-methods}
+
+```{r}
+
+library(ggplot2)
+data(mtcars)
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(title = "Fuel Efficiency by Car Weight",
+       x = "Weight (1000 lbs)",
+       y = "Miles per Gallon") +
+  theme_minimal()
+
+```
 
 # Results {#sec-results}
 
